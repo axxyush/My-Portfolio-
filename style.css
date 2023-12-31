@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.project-body{
+    background-image: url("images/bg.png");
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.name{
+    width: 60%;
+    font-size: 1.7rem;
+    margin-left: 50px;
+}
+
+.head-ele{
+    display: flex;
+}
+
+.head-ele:hover{
+    cursor: pointer;
+}
+
+.ele{
+    margin-left: 50px;
+    font-size: 1.3rem;
+}
+
+.mainbody{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.image{
+    height: 400px;
+    border: 1px solid black;
+}
+
+.heading-one{
+    font-family: Parisienne;
+    color: white;
+    font-size: 70px;
+}
+
+.para{
+    color: white;
+    font-size: 20px;
+}
+
+.heading-two{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 90px;
+    margin-top: -30px;
+    
+}
+
+.see-more{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    color: black;
+    font-weight: 800;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    width: 30%;
+    margin: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.box:hover{
+    background-color: black;
+    cursor: pointer;
+    color: #EAE0E0;
+}
+
+.box-c-2{
+    font-family: 'Poppins';
+    font-size: 60px;
+}
+
+.thankyou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.thankyou h1{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 90px;
+}
+
+.thankyou p{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+}
+
+footer{
+    background-color: black;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thank-contact{
+    display: flex;
+    justify-content: center;
+    color: white;   
+}
+
+.project-content{
+    width: 80%;
+    margin: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-i{
+    height: 200px;
+    margin: 10px;
+}
