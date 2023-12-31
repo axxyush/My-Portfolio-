@@ -57,7 +57,7 @@ header{
 .heading-one{
     font-family: Parisienne;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .para{
@@ -68,7 +68,7 @@ header{
 .heading-two{
     font-family: 'Poppins';
     color: white;
-    font-size: 90px;
+    font-size: 80px;
     margin-top: -30px;
     
 }
@@ -147,7 +147,7 @@ footer{
     color: white;   
 }
 
-.project-content{
+.project-content{ 
     width: 80%;
     margin: 80px;
     display: flex;
@@ -163,4 +163,37 @@ footer{
 .project-i{
     height: 200px;
     margin: 10px;
+}
+
+.see-more-body{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.see-more-img{
+    height: 300px;
+}
+
+.see-more-text{
+    margin-top: 20px;
+    font-family: Poppins;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.see-more-text:hover{
+    cursor: pointer;
+}
+
+.about{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
