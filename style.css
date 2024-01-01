@@ -27,6 +27,10 @@ header{
     margin-left: 50px;
 }
 
+.name:hover{
+    cursor: pointer;
+}
+
 .head-ele{
     display: flex;
 }
@@ -63,6 +67,12 @@ header{
 .para{
     color: white;
     font-size: 20px;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.para p{
+    margin-top: 7px;
 }
 
 .heading-two{
@@ -190,7 +200,7 @@ footer{
 }
 
 .about{
-    height: 500px;
+    height: 550px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
